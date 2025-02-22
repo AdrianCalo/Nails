@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <title>Nails Studio</title>
+</head>
+<body>
+    <div class="container">
+        <header id="item" class="header">            
+            <div><h3>Nails Studio</h3></div>
+            <div class="profile">
+                <img src="" alt="img">
+            </div>
+        </header>
+        <section id="item" class="section">section</section>
+        <nav id="item" class="navigation">navigation</nav>
+        <main id="item" class="main">
+            <div class="container-form">
+                <form action="/login-user(revisar)" method="post">
+                        <label for="E-mail">
+                            <p>E-mail:</p>
+                            <input type="email" name="user_Email" id="E-mail" required>
+                        </label>
+                        <label for="password1">
+                            <p>Password:</p>
+                            <div class="password-container">
+                                <input type="password" name="user-pass" id="password1" required>
+                                <span class="show-password" onclick="togglePasswordVisibility('password1')"><i class="fa-regular fa-eye-slash"></i></span>
+                            </div>                     
+                        </label>
+                        <label for="password2">
+                            <p>Confirme contraseña:</p>
+                            <div class="password-container">
+                                <input type="password" name="password2" id="password2" required>
+                                <span class="show-password" onclick="togglePasswordVisibility('password2')"><i class="fa-regular fa-eye-slash"></i></span>
+                            </div>
+                        </label>
+                        <button type="submit">Registrame</button>
+                </form>
+            </div>
+        </main>
+        <footer id="item" class="footer">footer</footer>
+    </div>
+
+
+
+    <script src="./index.js"></script>
+</body>
+</html>

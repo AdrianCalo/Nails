@@ -16,7 +16,20 @@
             </div>
         </header>
         <section id="item" class="section">section</section>
-        <nav id="item" class="navigation">navigation</nav>
+        <nav id="item" class="navigation">
+            <div class="search">
+                <form action="/buscar-productos(revisar)" method="get">
+                    <input class="buscador" type="search" name="query" id="" placeholder="Buscar producto..." required>
+                    <button type="submit">Buscar</button>
+                </form>
+            </div>
+            <div class="container-page">
+                <div class="ancla-page">Productos</div><!--agregar elementos anclas-->
+                <div class="ancla-page">Trabajos</div>
+                <div class="ancla-page">Turnos</div>
+            </div>
+            
+        </nav>
         <main id="item" class="main">
             <div class="container-form">
                 <form action="/login-user(revisar)" method="post">

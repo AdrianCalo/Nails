@@ -50,8 +50,12 @@ body{
   height: 2rem;
   border: 1px solid black;
   border-radius: 50%;
+}/*revisar*/
+.profile img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
 }
-
 /*estilos del formulario*/
 .container-form{
   width:250px;
@@ -64,7 +68,7 @@ body{
   padding: 20px;
   border-radius: 10px;
   box-shadow: 5px 8px 8px rgba(0,0,0, 0.2);
-  
+  margin-right: 20px;
 }
 
 .container-form form{
@@ -191,6 +195,9 @@ body{
     border:1px solid cadetblue;
     background-image: url(https://www.nenha.com/wp-content/uploads/2019/02/profesional-unas-acrilicas-e1558280195488.jpg);    
     background-size: cover;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
   } 
 
 .footer{
